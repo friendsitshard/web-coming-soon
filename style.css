@@ -1,0 +1,130 @@
+body, h1, p, form, button, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+    position: relative;
+}
+
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('/assets/fonts/Poppins-Bold.woff2') format('woff2'), 
+         url('/assets/fonts/Poppins-Bold.woff') format('woff'),   
+         url('/assets/fonts/Poppins-Bold.ttf') format('truetype'); 
+}
+
+@font-face {
+    font-family: 'poppins-el';
+    src: url('/assets/fonts/Poppins-ExtraLight.woff2') format('woff2'), 
+         url('/assets/fonts/Poppins-ExtraLight.woff') format('woff'),   
+         url('/assets/fonts/Poppins-ExtraLight.ttf') format('truetype'); 
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('/assets/fonts/Inter-SemiBold.ttf');
+}
+
+.coming-soon-header {
+    width: 100%;
+    height: 100vh;
+    background: url('/assets/images/photo.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content{
+    text-align: center;
+}
+
+.line{
+    /* max-width: 300px; */
+    height: fit-content;
+    margin: 80px 0px !important;
+}
+
+.content h1 {
+    font-size: 5.5em;
+    font-family: 'poppins-bold', sans-serif; 
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.orange-line{
+    position: absolute;
+    top: 34%;
+    left: 26.5%;
+}
+
+.content p {
+    font-size: 45px;
+    font-family: 'poppins-el', sans-serif;
+    font-weight: 100;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 150px;
+}
+
+.notify-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.notify-form input[type=email] {
+    text-align: center;
+    font-family: 'inter';
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.notify-form input::-webkit-input-placeholder{
+    font-family: 'inter';
+    color: orange;
+}
+
+.notify-form button {
+    font-family: 'inter';
+    font-size: 12px;
+    padding: 15px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-link img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.social-link {
+    display: inline-block;
+}
