@@ -14,27 +14,27 @@ body {
 
 @font-face {
     font-family: 'poppins-bold';
-    src: url('/assets/fonts/Poppins-Bold.woff2') format('woff2'), 
-         url('/assets/fonts/Poppins-Bold.woff') format('woff'),   
-         url('/assets/fonts/Poppins-Bold.ttf') format('truetype'); 
+    src: url('assets/fonts/Poppins-Bold.woff2') format('woff2'), 
+         url('assets/fonts/Poppins-Bold.woff') format('woff'),   
+         url('assets/fonts/Poppins-Bold.ttf') format('truetype'); 
 }
 
 @font-face {
     font-family: 'poppins-el';
-    src: url('/assets/fonts/Poppins-ExtraLight.woff2') format('woff2'), 
-         url('/assets/fonts/Poppins-ExtraLight.woff') format('woff'),   
-         url('/assets/fonts/Poppins-ExtraLight.ttf') format('truetype'); 
+    src: url('assets/fonts/Poppins-ExtraLight.woff2') format('woff2'), 
+         url('assets/fonts/Poppins-ExtraLight.woff') format('woff'),   
+         url('assets/fonts/Poppins-ExtraLight.ttf') format('truetype'); 
 }
 
 @font-face {
     font-family: 'inter';
-    src: url('/assets/fonts/Inter-SemiBold.ttf');
+    src: url('assets/fonts/Inter-SemiBold.ttf');
 }
 
 .coming-soon-header {
     width: 100%;
     height: 100vh;
-    background: url('/assets/images/photo.jpg') no-repeat center center;
+    background: url('assets/images/photo.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
 }
