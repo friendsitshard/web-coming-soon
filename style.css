@@ -132,11 +132,6 @@ body {
 /* Media Queries for Phone Versions */
 
 @media (max-width: 480px) {
-    .coming-soon-header {
-        height: 100%;
-        padding-top: 20px;
-    }
-
     .line{
         max-width: 200px;
         margin: 0;
@@ -145,13 +140,12 @@ body {
 
     .orange-line{
         max-width: 340px;
-        top: 27%;
+        top: 30%;
         left: 8.5%;
     }
 
     .content {
-        width: 100%; 
-        padding: 20px; 
+        width: 100%;  
         align-items: center;
         text-align: center;
     }
@@ -162,7 +156,7 @@ body {
     }
 
     .content p {
-        font-size: 1.2em; /* Reducing font size for smaller screens */
+        font-size: 2em; /* Reducing font size for smaller screens */
         margin-top: 60px;
     }
 
