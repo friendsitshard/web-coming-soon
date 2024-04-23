@@ -56,7 +56,7 @@ body {
 .line{
     /* max-width: 300px; */
     height: fit-content;
-    margin: 80px 0px !important;
+    margin: 80px 0px;
 }
 
 .content h1 {
@@ -128,3 +128,70 @@ body {
 .social-link {
     display: inline-block;
 }
+
+/* Media Queries for Phone Versions */
+
+@media (max-width: 480px) {
+    .coming-soon-header {
+        height: 100%;
+        padding-top: 20px;
+    }
+
+    .line{
+        max-width: 200px;
+        margin: 0;
+        margin-top: 80px;
+    }
+
+    .orange-line{
+        max-width: 340px;
+        top: 27%;
+        left: 8.5%;
+    }
+
+    .content {
+        width: 100%; 
+        padding: 20px; 
+        align-items: center;
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 3em !important; /* Reducing font size */
+        margin: 80px 0; /* Adding spacing */
+    }
+
+    .content p {
+        font-size: 1.2em; /* Reducing font size for smaller screens */
+        margin-top: 60px;
+    }
+
+    .notify-form {
+        align-items: center;
+        flex-direction: column; 
+        width: 100%; 
+    }
+
+    .notify-form input[type=email] {
+        width: 60%; /* Ensuring input spans the full width */
+        margin-bottom: 20px; /* Adding spacing for stacked layout */
+    }
+
+    .notify-form button {
+        width: 40%;
+        min-width: 180px;
+        font-size: 12px; /* Slightly increased for readability */
+        padding: 12px;
+    }
+
+    .social-icons {
+        margin-top: 20px; 
+        margin-bottom: 80px;
+    }
+
+    .social-link img {
+        width: 25px; /* Reducing social icon size */
+        height: 25px; /* Adjusting size */
+    }
+}
+
