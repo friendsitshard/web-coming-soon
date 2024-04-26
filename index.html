@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SafetyPro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,17 +18,21 @@
                 </h1>
                 <p>ARE YOU READY?</p>
                 <form action="#" method="post" class="notify-form">
-                    <input type="email" name="email" placeholder="Your Email">
-                    <button type="submit">NOTIFY ME</button>
+                    <input type="email" name="email" placeholder="Your Email" id="email">
+                    <button type="submit" id="submitBtn">NOTIFY ME</button>
                 </form>
                 <div class="social-icons">
-                    <a href="#" class="social-link"><img src="assets/images/linkedin.png" alt="LinkedIn"></a>
-                    <a href="#" class="social-link"><img src="assets/images/fb.png" alt="Facebook"></a>
-                    <a href="#" class="social-link"><img src="assets/images/whatsapp.png" alt="Instagram"></a>
+                    <a href="https://www.instagram.com/safetypro__?igsh=aWwwYzFpd2hsZ3M%3D&utm_source=qr" class="social-link"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61556500727714" class="social-link"><img src="assets/images/fb.png" alt="Facebook"></a>
+                    <a href="#" class="social-link whatsapp-link"><img src="assets/images/whatsapp.png" alt="whatsapp"></a>
+                    <div class="tooltip">
+                        <img src="assets/images/whatsapp-qr.png" alt="WhatsApp QR Code" style="width:100%">
+                    </div>
                     <a href="#" class="social-link"><img src="assets/images/twitter.png" alt="Twitter"></a>
                 </div>
             </div>
         </div>
     </header>
+    <script src="script.js"></script>
 </body>
 </html>
